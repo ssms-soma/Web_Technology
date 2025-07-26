@@ -1,1 +1,151 @@
+/* overall body-style */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    background-color: #f7fafc;
+    color: #273d48;
+    line-height: 1.6;
+}
+
+/* resume-container */
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+                0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* header */
+.header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1a202c;
+    margin: 0;
+}
+
+.header p {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    color: #4299e1;
+}
+
+.contact_info {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.contact_info a {
+    color: #4a5568;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact_info a:hover {
+    color: #4299e1;
+}
+
+.contact_info i {
+    margin-right: 0.3rem;
+}
+
+/* sections */
+.section {
+    margin-bottom: 2rem;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1a202c;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #63b3ed;
+}
+
+.section-title i {
+    color: #63b3ed;
+    margin-right: 0.5rem;
+}
+
+.card {
+    border: 1px solid #e2e8f0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+/* experience section */
+.exp_heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* skills section */
+.skills_card {
+    width: 42%;
+    height: 12rem;
+    background-color: #f7fafc;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+}
+
+.skills_grid_2s {
+    display: flex;
+    justify-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    .skills_card {
+        width: 80%;
+        height: auto;
+    }
+}
+
+/* achievements */
+.achievements {
+    background-color: #f7fafc;
+    border: none;
+}
+
+/* font formatting */
+.light-text {
+    color: #1a202cba;
+}
+
+.slight-lighter {
+    color: #1a202cde;
+    font-size: 0.9rem;
+}
+
+/* responsive tweaks for small devices */
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .header p {
+        font-size: 1.2rem;
+    }
+
+    .skills_card {
+        width: 100%;
+        margin-right: 0;
+    }
+}
 
