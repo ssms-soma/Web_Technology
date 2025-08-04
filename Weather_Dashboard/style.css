@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #eee;
+}
+
+.weather-app {
+  width: 300px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
+.search {
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 5px;
+  width: 60%;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+.card {
+  text-align: left;
+  margin-top: 15px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}
